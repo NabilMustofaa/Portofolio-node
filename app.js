@@ -32,7 +32,7 @@ app.use(session({
 app.get('/', (req, res) => {
     res.render('index',
         {
-            title: 'home',
+            title: 'Nabil Portofolio',
             layout: 'layouts/main',
             id: 'home'
             
