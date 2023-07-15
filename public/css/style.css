@@ -23,7 +23,7 @@ body{
 
 .main{
     height: 100vh;
-    background-image: url(https://storage.googleapis.com/portfolio-nabil/img/back.png);
+    background-image: url(../img/back.png);
     background-size: cover;
     background-repeat: none;
     position: relative;
@@ -39,7 +39,7 @@ body{
 .porto{
     padding: 9vh 0 0 0;
     background-size: cover;
-    background-image: url(https://storage.googleapis.com/portfolio-nabil/img/portobg.png);
+    background-image: url(../img/portobg.png);
     
 }
 .bg-main{
@@ -568,7 +568,7 @@ footer{
         width: 100vw;
     }
     .main{
-        background-image: url(https://storage.googleapis.com/portfolio-nabil/img/back_potrait.png);
+        background-image: url(../img/back_potrait.png);
         width: 100w;
         height: 100vh;
     }
