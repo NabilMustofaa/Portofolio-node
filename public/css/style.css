@@ -186,27 +186,26 @@ a{
 .detail-text h4, .detail-text h4 a{
     font-size: 1rem;
     font-weight: 600;
-    margin: 2vh 0 2vh 0;
+    margin: 0 0 2vh 0;
     color: #1A1A1A;
 }
-
 .detail-tech{
     display: flex;
     flex-direction: row;
     margin: 0 0 5vh 0;
 }
 .detail-tech-item img{
-    width: 3rem;
-    height: 3rem;
+    width: 3vw;
+    height: 6vh;
     margin: 0 1vw 0 0;
 }
 .detail-sub{
-    margin: -4% 0 0 5%;
+    margin: 0 0 0 6%;
 }
 .detail-sub h3{
     font-size: 1.05rem;
     font-weight: 600;
-    margin: 4% 0 0 0;
+    margin: 5% 0 0 0;
     color: #1A1A1A;
 }
 .detail-sub a{
@@ -512,7 +511,7 @@ footer{
         display: none;
         flex-direction: column-reverse;
         padding: 10vh 0 0 0;
-        margin: 5vh 0 0 0;
+        margin: -10vh 0 0 0;
         background-color: #1A1A1A;
         width: 100vw;
         transition: background 250ms ease-in;
@@ -522,39 +521,7 @@ footer{
         margin: 0 0 0.5rem 0;
 
     }
-    .skill-container{
-        grid-auto-flow: dense;
-    }
-    .visible-grid{
-        display: none;
-    }
-    .porto-container{
-        grid-template-columns: 100vw;
-    }
-    .detail-container{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .detail-container.text{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .detail-sub{
-        margin: 0 0 0 0;
-    }
-    .detail-sub h3{
-        margin: 0 0 0 0;
-    }
-    .detail-text{
-        margin: 2rem 0 0 0;
-    }
-    .detail-side{
-        flex-direction: row;
-    }
-    .detail-side img{
-        width: 30%;
-        margin: 2%;
-    }
+    
     .gg-menu{
         display: block;
         color: #f1f1f1;
